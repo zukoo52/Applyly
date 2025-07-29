@@ -3,9 +3,10 @@
 
 **Applyly** is a modern, full-stack job listing platform built with **Laravel 11**, designed to connect employers with job seekers in an intuitive and dynamic way. Developed as a capstone project from the **Laravel From Scratch** course, this application integrates features like resume uploads, interactive maps, bookmarking, and dashboards to deliver a robust job-seeking experience.
 
-![Applyly Screenshot](Projects/workopia.png)
+
 
 ---
+<img width="500" height="238" alt="screen" src="https://github.com/user-attachments/assets/3c6eb2ab-367b-428d-b09e-2a4357600bc7" />
 
 ## 🔍 Features
 
