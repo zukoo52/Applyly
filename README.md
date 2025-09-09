@@ -1,61 +1,105 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Applyly
+# 🧾 Applyly – Laravel Job Portal
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**Applyly** is a modern, full-stack job listing platform built with **Laravel 11**, designed to connect employers with job seekers in an intuitive and dynamic way. Developed as a capstone project from the **Laravel From Scratch** course, this application integrates features like resume uploads, interactive maps, bookmarking, and dashboards to deliver a robust job-seeking experience.
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
+<img width="500" height="238" alt="screen" src="https://github.com/user-attachments/assets/3c6eb2ab-367b-428d-b09e-2a4357600bc7" />
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🔍 Features
 
-## Learning Laravel
+- 📝 **Job Listing CRUD** – Employers can post, update, and manage job opportunities.
+- 🔐 **Authentication & Authorization** – User access is managed with Laravel Breeze and policies.
+- 📷 **Avatar Uploads** – Users can personalize profiles with uploaded images.
+- 🧩 **Blade UI Components** – Clean and responsive UI built with reusable components.
+- ⚡ **Vite + Tailwind CSS** – For fast, beautiful frontend development.
+- 📌 **Bookmark Jobs** – Save listings to revisit later.
+- 📄 **Apply & Upload Resume** – Seamless application flow with resume attachment.
+- 📊 **User Dashboard** – Personalized dashboard to manage jobs and applications.
+- 🧭 **Job Search with Mapbox** – Location-based job discovery using Mapbox integration.
+- 📬 **Mailer System** – Sends job alerts and application confirmations via Mailtrap.
+- 🧪 **Database Seeding** – Test-ready with pre-filled listings and dummy data.
+- 📚 **Pagination & Validation** – Structured listing pages and robust input validation.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 🧰 Tech Stack
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+| Frontend | Backend | Utilities |
+|----------|---------|-----------|
+| Blade    | Laravel 11 | Vite |
+| Tailwind CSS | PHP | MySQL |
+| Alpine.js | Laravel Breeze | Mailtrap |
+| Mapbox | - | Seeder |
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 🧠 Key Development Tasks
 
-### Premium Partners
+- Implemented full **CRUD** with route model binding.
+- Designed and secured **authentication** with login, register, and access controls.
+- Integrated **file upload** system for avatars and resumes.
+- Connected **Mapbox API** for displaying job locations visually.
+- Developed interactive **dashboard** for job seekers and employers.
+- Configured **Mailtrap** for outbound communication like job alerts.
+- Built custom **error handling** and validation messages.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## 📽 Demo
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+🔗 [Watch Demo on YouTube](https://youtu.be/YOUR_YOUTUBE_DEMO)
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 🧑‍💻 My Role
 
-## Security Vulnerabilities
+| Role          | Status              |
+|---------------|---------------------|
+| Solo Developer | ✅ Completed – July 2025 |
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+## 🔗 Links
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- 🔧 [GitHub Repository](https://github.com/zukoo52/workopia)
+
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/zukoo52/workopia.git
+   cd workopia
+Install dependencies:
+
+bash
+Copy
+Edit
+composer install
+npm install && npm run dev
+Configure environment:
+
+Copy .env.example to .env
+
+Set up your DB, Mailtrap credentials, and Mapbox token
+
+Run migrations and seed data:
+
+bash
+Copy
+Edit
+php artisan migrate --seed
+Serve the application:
+
+bash
+Copy
+Edit
+php artisan serve
+📫 Contact
+Made with ❤️ by Malinga Sadharuwan
+
